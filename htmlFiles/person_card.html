@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+   
+    <link rel="stylesheet" type="text/css" href="../styles/image_gallery.css">
+     <link rel="stylesheet" type="text/css" href="../styles/style.css"> 
+    <script src="../javaScript/change_mode.js"></script>    
+    <title>familyMember</title>
+</head>
+<body>
+    <div id="main-div">
+        <div id="header-div">
+            <div id="person-name-div">דורון</div>
+            <div id="blue"><p>works better in chrom</p></div>
+        </div>   
+        <div class="gallery cf">
+            <div>
+              <img src="../images/doron/doron2.jpg" />
+            </div>
+            <div>
+              <img src="http://abload.de/img/a6aawu.jpg" />
+            </div>
+            <div>
+              <img src="http://abload.de/img/a6aawu.jpg" />
+            </div>
+            <div>
+              <img src="http://abload.de/img/a6aawu.jpg" />
+            </div>
+            <div>
+              <img src="http://abload.de/img/a6aawu.jpg" />
+            </div>
+            <div>
+              <img src="http://abload.de/img/a6aawu.jpg" />
+            </div>
+        </div>  
+        <div id="personal-details-div">
+            <table id="personal-details-table">
+             <tr>
+                <th>שם</th>
+                <td>
+                    <p class="normal-mode">דורון</p>
+                    <input type="text" id="private-name" class="edit-mode">
+                 </td>
+            </tr>   
+            <tr>   
+                <th>עיסוק</th>
+                <td>
+                    <p class="normal-mode">מורה בגמלאות</p>
+                    <input type="text" id="ocupation" class="edit-mode">
+                </td>
+            </tr>
+            <tr>    
+                <th>כתובת</th>
+                <td>
+                    <p class="normal-mode">באר שבע</p>
+                    <input type="text" id="address" class="edit-mode"/>
+                </td>
+            </tr>
+            <tr>  
+                <th>אימייל</th>
+                <td>
+                    <p class="normal-mode">doronavr@gmail.com</p>
+                    <input type="text" id="email" class="edit-mode">
+                </td>
+            </tr>
+            <tr>    
+                <th>תאריך לידה</th>
+                <td>
+                    <p class="normal-mode">תאריך לידה</p>
+                    <input type="text" id="birth-day" class="edit-mode">
+                </td>
+            </tr>
+        </table>
+        <input type="button" id="change-mode-btn" value = "Edit" onclick="change_mode()">
+    </div>
+    <div id="member-description-div">
+        <p class="normal-mode">תיאור קצר כאן</p>
+        <input type="text" id="member-description" class="edit-mode" height="100%" >
+    </div>
+    </div>
+</body>
+</html>
